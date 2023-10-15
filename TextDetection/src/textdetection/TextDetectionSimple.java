@@ -24,7 +24,7 @@ public class TextDetectionSimple {
             // the path of your tess data folder 
             // inside the extracted file 
             String text
-                    = tesseract.doOCR(new File("src\\main\\resources\\images\\Image.png"));
+                    = tesseract.doOCR(new File("src\\main\\resources\\images\\ruido3.jpeg"));
 
             // path of your image file 
             System.out.print(text);
