@@ -27,7 +27,7 @@ public class TextDetectionSimple {
                     = tesseract.doOCR(new File("src\\main\\resources\\images\\ruido3.jpeg"));
 
             // path of your image file 
-            System.out.print(text);
+            System.out.print("DNI Identificado: " + text);
         } catch (TesseractException e) {
             e.printStackTrace();
         }
